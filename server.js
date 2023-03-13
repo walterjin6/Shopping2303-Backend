@@ -7,9 +7,12 @@ import productRouter from './routes/productRoutes.js';
 import userRouter from './routes/userRoutes.js';
 import orderRouter from './routes/orderRoutes.js';
 import uploadRouter from './routes/uploadRoutes.js';
+import cors from 'cors'
 
 dotenv.config();
 const app = express();
+
+app.use(cors())
 app.use(express.json());
 // 中间件urlencoded用于解析在 URL 的查询字符串或请求正文中编码的传入请求数据
 // （例如，来自 HTML 表单），并将其转换为可从属性访问的 JavaScript 对象req.body。
