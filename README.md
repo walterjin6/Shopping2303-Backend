@@ -1,12 +1,12 @@
 # City Hospital Lab Management
 
-### [Click me to view Demo Website](https://cityhospitallabmanagement.onrender.com/)
+### [Click me to view Demo Website](https://shopping2303.onrender.com/)
 
 This project is the backend part for searching Flicker pictures through APIs provided by Flickr.
 
 ## Instructions
 
-First clone this repository:  git clone https://github.com/walterjin6/City-Hospital-Lab-Management-Backend.git
+First clone this repository:  git clone https://github.com/walterjin6/shopping2303-Backend.git
 
 Contact [me](mailto:jinwei6@gmail.com)  to get`.env` file, and put .env file in project root directory
 
@@ -16,7 +16,7 @@ Run project: npm run dev OR npm start
 
 Server will be running on port 3500
 
-Launch the paired frontend project from [here](https://github.com/walterjin6/City-Hospital-Lab-Management-Frontend)  
+Launch the paired frontend project from [here](https://github.com/walterjin6/shopping2303-Frontend)  
 
 Test project: npx jest
 
